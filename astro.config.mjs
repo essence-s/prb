@@ -5,7 +5,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://essence-s.github.io',
-  base: '/prb',
   vite: {
     assetsInclude: ['**/*.glb']
   },
