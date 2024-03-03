@@ -1,4 +1,4 @@
-import { IndexBox } from "@components/common";
+// import { IndexBox } from "@components/common";
 import { Footer } from "@components/layouts";
 // import React from "react";
 import './home.css'
@@ -7,7 +7,7 @@ import { Header, Me, Proyects, } from "./partsHome";
 const Home = () => {
   return (
     <div className="home" >
-      <IndexBox></IndexBox>
+      {/* <IndexBox></IndexBox> */}
       <Header></Header>
       <Proyects></Proyects>
       <Me></Me>
